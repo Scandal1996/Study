@@ -1,11 +1,10 @@
-.body{
-  font-size: 24px;
+span{
+  display: block;
+  height: 100px;
+  width: 200px;
+  background-color:yellow;
 }
 
-.p{
-  color: green;
-}
-
-.li{
-  color: orange;
+div{
+  display: inline;
 }
