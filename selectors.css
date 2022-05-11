@@ -1,28 +1,21 @@
+li{
+  margin-bottom: 16px;
+}
 
-section[class="already-learned"] > ol {
+ol span {
   background-color: green;
   color: white;
 }
 
-section[class="to-be-learned"] > ol {
+ul span {
   background-color: orange;
-  color: green;
+  color: white;
 }
 
-section[class="already-learned"] code {
-  background-color: orange;
-  
-}
+#special + li > span{
+  border: 3px solid red;
+} 
 
-section[class="to-be-learned"] code {
-  background-color: green;
-  
-}
-
-li[id="special1"] + li h4 > code{
-  border: 2px solid blue;
-}
-
-li[id="special2"] ~ li{
-  font-size: 24px;
+#special ~ li{
+  margin-left: 16px;
 }
