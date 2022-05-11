@@ -1,29 +1,23 @@
-li{
-  margin-bottom: 16px;
+body{
+  background-color: antiquewhite;
 }
 
-.first{
-  background-color: red;
-  color: white;
+.div1{
+  box-sizing: content-box;
+  border: 8px solid black;
+  height: 128px;
+  width: 512px;
+  margin: 16px;
+  padding: 16px;
+  color:aquamarine;
 }
 
-.last{
-  background-color: black;
-  color: white;
-}
-
-.two{
-  margin-left: 16px;
-}
-
-.four{
-  margin-left: 16px;
-}
-
-.last{
-  margin-left: 16px;
-}
-
-div[class="paragraphs"] > p[class="nechet"] {
-  background-color: gray;
+.div2{
+  color:azure;
+  box-sizing: border-box;
+  height: 128px;
+  width: 512px;
+  margin: 16px;
+  padding: 16px;
+  border: 8px solid black;
 }
