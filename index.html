@@ -11,27 +11,57 @@
     />
   </head>
 <style>
-  input[checked]{
-    margin-left: 50px;
+  body{
+    background-color: #bdc3c7;
+  }
+  h1{
+    color: #9b59b6;
   }
 
-  label {
-    text-transform:uppercase;
+  h2{
+    color: orange;
   }
 
-  #special::first-letter{
-    color: green;
-    font-size: 100px;
-  }
-
-  h1:hover{
+  li{
     color: blue;
   }
 
-  a:visited{
-    color: gray;
+  p{
+    color: yellow;
   }
-  
+
+  input{
+    border: 3px solid red;
+  }
+
+  [class="hello"]{
+    background-color: white;
+  }
+
+  #special {
+    border: 2px solid blue;
+  }
+
+  div p {
+    font-size: 25px;
+  }
+
+  input[type="text"]{
+    background-color: gray;
+  }
+
+  div[class="third"] p{
+    background-color: yellow;
+  }
+
+  p[class="second"]{
+    border: 5px solid white;
+  }
+
+  em[class="div3"]{
+    color: white;
+    font-size: 20px;
+  }
 </style>
   <body>
     <h1>Selectors Exercise</h1>
@@ -60,17 +90,17 @@
       </ul>
     </div>
 
-    <div>
+    <div class="third">
       <h2>I am another awesome h2</h2>
 
       <p>
-        Tom Sawyer's best friends include Joe Harper and <em>Huckleberry</em> Finn. In The
+        Tom Sawyer's best friends include Joe Harper and <em class="div3">Huckleberry</em> Finn. In The
         Adventures of Tom Sawyer, Tom's infatuation with classmate Becky Thatcher is apparent as he
         tries to intrigue her with his strength, boldness, and handsome looks. He first sees her
         after he confessed his feelings for Amy Lawrence, one of his classmates
       </p>
 
-      <p>I'm the second paragraph inside this div!</p>
+      <p class="second">I'm the second paragraph inside this div!</p>
     </div>
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
